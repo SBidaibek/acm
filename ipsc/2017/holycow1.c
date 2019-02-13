@@ -1,0 +1,26 @@
+push 0
+push 0
+push 0
+push 0
+push 0
+input;push 0;-
+jump 7
+push 0;-
+print
+jump 26
+jump 9
+jump 9
+jump 9
+jump 9
+jump 9
+jump 9
+jump 26
+jump 12
+push 0;-;dup;*
+jump 20
+push 0
+push 0
+push 0
+push 0
+push 0
+push 0
