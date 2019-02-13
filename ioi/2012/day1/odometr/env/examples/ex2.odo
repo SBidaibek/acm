@@ -1,0 +1,8 @@
+right
+leonardo:
+pebble davinci	# pebble found
+border davinci	# end of the row
+move
+jump leonardo
+davinci:
+halt

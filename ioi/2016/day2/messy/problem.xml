@@ -1,0 +1,154 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<problem
+	version = "1.0"
+	id = "ioi.2016.day2.messy"
+>
+	<judging>
+		<script type = "%ioi">
+			<testset
+				name = "main"
+				input-name = "*"
+				output-name = "*"
+				input-href = "tests/##"
+				answer-href = "tests/##.a"
+				time-limit = "2.0s"
+				memory-limit = "2GiB"
+			>
+				<test-group
+					comment ="Sample"
+					scoring ="sum"
+					feedback ="statistics"
+					group-bonus ="0"
+					require-groups =""
+				>
+					<test comment="sample 1" />
+				</test-group>
+				<test-group
+					comment ="Subtask 1"
+					scoring ="group"
+					feedback ="group-score-and-test"
+					group-bonus ="20"
+					require-groups =""
+				>
+					<test comment="generated cmd: 'Tests 0 2'" />
+					<test comment="generated cmd: 'Tests 0 2'" />
+					<test comment="generated cmd: 'Tests 0 2'" />
+					<test comment="generated cmd: 'Tests 0 2'" />
+					<test comment="generated cmd: 'Tests 0 2'" />
+					<test comment="generated cmd: 'Tests 0 2'" />
+					<test comment="generated cmd: 'Tests 0 2'" />
+					<test comment="generated cmd: 'Tests 0 2'" />
+					<test comment="generated cmd: 'Tests 0 2'" />
+					<test comment="generated cmd: 'Tests 0 2'" />
+					<test comment="generated cmd: 'Tests 0 2'" />
+					<test comment="generated cmd: 'Tests 0 2'" />
+					<test comment="generated cmd: 'Tests 0 2'" />
+					<test comment="generated cmd: 'Tests 0 2'" />
+					<test comment="generated cmd: 'Tests 0 2'" />
+				</test-group>
+				<test-group
+					comment ="Subtask 2"
+					scoring ="group"
+					feedback ="group-score-and-test"
+					group-bonus ="18"
+					require-groups =""
+				>
+					<test comment="generated cmd: 'Tests 1 17'" />
+					<test comment="generated cmd: 'Tests 1 17'" />
+					<test comment="generated cmd: 'Tests 1 17'" />
+					<test comment="generated cmd: 'Tests 1 17'" />
+					<test comment="generated cmd: 'Tests 1 17'" />
+					<test comment="generated cmd: 'Tests 1 17'" />
+					<test comment="generated cmd: 'Tests 1 17'" />
+					<test comment="generated cmd: 'Tests 1 17'" />
+					<test comment="generated cmd: 'Tests 1 17'" />
+					<test comment="generated cmd: 'Tests 1 17'" />
+					<test comment="generated cmd: 'Tests 1 17'" />
+					<test comment="generated cmd: 'Tests 1 17'" />
+					<test comment="generated cmd: 'Tests 1 17'" />
+					<test comment="generated cmd: 'Tests 1 17'" />
+					<test comment="generated cmd: 'Tests 1 17'" />
+				</test-group>
+				<test-group
+					comment ="Subtask 3"
+					scoring ="group"
+					feedback ="group-score-and-test"
+					group-bonus ="11"
+					require-groups =""
+				>
+					<test comment="generated cmd: 'Tests 2 32'" />
+					<test comment="generated cmd: 'Tests 2 32'" />
+					<test comment="generated cmd: 'Tests 2 32'" />
+					<test comment="generated cmd: 'Tests 2 32'" />
+					<test comment="generated cmd: 'Tests 2 32'" />
+					<test comment="generated cmd: 'Tests 2 32'" />
+					<test comment="generated cmd: 'Tests 2 32'" />
+					<test comment="generated cmd: 'Tests 2 32'" />
+					<test comment="generated cmd: 'Tests 2 32'" />
+					<test comment="generated cmd: 'Tests 2 32'" />
+					<test comment="generated cmd: 'Tests 2 32'" />
+					<test comment="generated cmd: 'Tests 2 32'" />
+					<test comment="generated cmd: 'Tests 2 32'" />
+					<test comment="generated cmd: 'Tests 2 32'" />
+					<test comment="generated cmd: 'Tests 2 32'" />
+				</test-group>
+				<test-group
+					comment ="Subtask 4"
+					scoring ="group"
+					feedback ="group-score-and-test"
+					group-bonus ="21"
+					require-groups =""
+				>
+					<test comment="generated cmd: 'Tests 3 47'" />
+					<test comment="generated cmd: 'Tests 3 47'" />
+					<test comment="generated cmd: 'Tests 3 47'" />
+					<test comment="generated cmd: 'Tests 3 47'" />
+					<test comment="generated cmd: 'Tests 3 47'" />
+					<test comment="generated cmd: 'Tests 3 47'" />
+					<test comment="generated cmd: 'Tests 3 47'" />
+					<test comment="generated cmd: 'Tests 3 47'" />
+					<test comment="generated cmd: 'Tests 3 47'" />
+					<test comment="generated cmd: 'Tests 3 47'" />
+					<test comment="generated cmd: 'Tests 3 47'" />
+					<test comment="generated cmd: 'Tests 3 47'" />
+					<test comment="generated cmd: 'Tests 3 47'" />
+					<test comment="generated cmd: 'Tests 3 47'" />
+					<test comment="generated cmd: 'Tests 3 47'" />
+				</test-group>
+				<test-group
+					comment ="Subtask 5"
+					scoring ="group"
+					feedback ="group-score-and-test"
+					group-bonus ="30"
+					require-groups =""
+				>
+					<test comment="generated cmd: 'Tests 4 62'" />
+					<test comment="generated cmd: 'Tests 4 62'" />
+					<test comment="generated cmd: 'Tests 4 62'" />
+					<test comment="generated cmd: 'Tests 4 62'" />
+					<test comment="generated cmd: 'Tests 4 62'" />
+					<test comment="generated cmd: 'Tests 4 62'" />
+					<test comment="generated cmd: 'Tests 4 62'" />
+					<test comment="generated cmd: 'Tests 4 62'" />
+					<test comment="generated cmd: 'Tests 4 62'" />
+					<test comment="generated cmd: 'Tests 4 62'" />
+					<test comment="generated cmd: 'Tests 4 62'" />
+					<test comment="generated cmd: 'Tests 4 62'" />
+					<test comment="generated cmd: 'Tests 4 62'" />
+					<test comment="generated cmd: 'Tests 4 62'" />
+					<test comment="generated cmd: 'Tests 4 62'" />
+				</test-group>
+			</testset>
+			<verifier type="%testlib">
+				<binary executable-id ="linux.exe" file ="check.exe" />
+			</verifier>
+			<attachment language-id="c.gnu" href="files/grader.c"/>
+			<attachment language-id="cpp.gnu" href="files/grader.cpp"/>
+			<attachment language-id="java" href="files/grader.java"/>
+			<attachment language-id="pascal.free" href="files/grader.pas"/>
+			<attachment language-id="pascal.free" href="files/graderlib.pas"/>
+			<attachment language-id="cpp.gnu" href="files/messy.h"/>
+			<attachment language-id="c.gnu" href="files/messy_c.h"/>
+		</script>
+	</judging>
+</problem>

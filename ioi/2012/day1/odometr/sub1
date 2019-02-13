@@ -1,0 +1,32 @@
+#while (1) {
+#    if (!pebble()) halt
+#    get
+#    right
+#    right
+#    move
+#    if (!pebble()) halt
+#    get
+#    left
+#    left
+#    move
+#}
+
+left
+cyc1:
+    pebble skip1
+        halt
+    skip1:
+    get
+    right
+    right
+    move
+    pebble skip2
+        halt
+    skip2:
+    get
+    left
+    left
+    move
+jump cyc1
+#if1:
+#jump endif1

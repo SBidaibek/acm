@@ -1,0 +1,24 @@
+02:10 H0 - no opt answer for any city involves more than 1 turn
+02:03 understanding the motion
+01:55 H1 - each city can be determined independently
+01:43 finished slow on H1
+01:33 undestood the fault of H1
+01:31 H2 - only 2 iters are enough
+01:27 failed H2
+01:24 H3 - tl and tr choices are unambigious
+01:21 O1 - to get to i you need to get to i - 1
+01:21 H4 - ответы состоят из в свою сторону в отрезке вокруг и
+            наоборот для префиска и суффикса оставишхся
+01:19 H5 - dir[tl - i] != dir[tr + i]
+01:14 H5 is shit, H4 is probs too
+01:14 H6 - dir is +1 -1 +1 -1 (following H0)
+00:58 - зависит от последнего
+00:50 - можно смотреть с краев
+00:30 - I1 => a[k] - ps[k - 1] >= a[i] + F
+            рассматриваем с краев
+00:10 - slow passed samples
+-00:10~ - boosted the slow, wa on some tests
+-00:20~ - I2 = 2 pointers, one eats another
+-00:32 - slow of I2 passes small tests
+-00:43 - AC
+

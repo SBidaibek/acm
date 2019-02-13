@@ -1,0 +1,32 @@
+01:52 - unpacked all the files
+01:48 - O0 = const 7 in sub3 matters
+01:47 - O1 = some problems may be with multiple dots in one point
+01:46 - trying to understand the problem and the unknown
+01:42 - H0 = wires dont cross
+01:39 - possible need a slow
+01:39 - S1 = dp on i j
+01:38 - started S1
+01:30 - submitted S1
+01:25 - O2 = in the answer no edge connects 2 points
+            with degree > 1
+01:18 - I1 = answer consists of consecutive segments
+            of same color connected to one dot of
+            another color
+01:14 - H1 = a blue dot connects only to red dots that
+        are after the prev blue and before next blue
+01:12 - started Sub3
+00:47 - understood the poblem with Sub3
+00:41 - trying to find dp for Sub3
+00:40 - H1 is bs
+00:33 - trying to come up with some dp
+00:27 - need some good idea
+00:10 - debugging
+-00:05 - came up with Su3b
+-00:06 - I1 = ans consists of semgents with
+        either one blue or one red
+-00:30 - undesrtood the concept
+-00:33 - I2 = we concatenate either a bunch to one
+        or two segements
+-00:44 - debugging I2
+-00:52 - strssing I2
+-01:10 - found bug, got idea of full

@@ -1,0 +1,5 @@
+move # no effect
+right
+# now the odometer is facing east
+move
+move

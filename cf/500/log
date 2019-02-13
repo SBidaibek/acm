@@ -1,0 +1,21 @@
+0:33 - H1 = binsearch
+0:33 - H2 = check from center
+0:32 - I0 = add all
+0:27 - O1 = if a cell isnt added all its adjacent cells arent added
+0:22 - O2 = ans is not greater than n + m - 1
+0:21 - I1 = we can use sets for each y and x for O2
+0:14 - H3 = n + m - 1 is enough and necessary thus the only solution
+0:12 - S1 = impl H3
+0:00 - H1 is BS
+
+-00:20 - O3 = rows columns are a birpatite graph
+-00:20 - O4 - if 2 rows or cols have at least 1 cell in common they or
+-00:30 - I2 = merging components by creating cells
+
+2:19 - O1 = we can try make 1st 0 and 1st 1
+2:18 - H1 = we can change substrs
+2:17 - I1 = swap blocks of same from end
+2:17 - started I1
+2:09 - I1 got WA4
+2:09 - trying to find a sample
+1:50 - H2 = its never optimal to break blocks of same

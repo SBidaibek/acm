@@ -1,0 +1,6 @@
+group="0"
+group="1"	group-bonus="20"	require-groups=""
+group="2"	group-bonus="18"	require-groups=""
+group="3"	group-bonus="11"	require-groups=""
+group="4"	group-bonus="21"	require-groups=""
+group="5"	group-bonus="30"	require-groups=""

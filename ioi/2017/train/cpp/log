@@ -1,0 +1,35 @@
+2:27 - unpacked
+2:20 - read the statement, IMPORTANT: find good samples, a lot can
+        be understood
+01:58 - trying Sub1
+01:57 - H0 = solution is something like BFS from each vertices
+            once we get the lemmas about optimal decisions from Sub3&4
+01:56 - S1 OK
+01:54 - trying S2 with recursive
+01:33 - Sub3 - condense the graph, count the comps with goods, check reach
+01:33 - Sub4 - delete the goods, condesnse the graph, mark all belonging
+                to cycles, check reach
+01:30 - debuggin Sub1
+01:27 - PAUSE
+new 30
+00:21 - O1 = we need to select subgraph on n vertices and edges,
+            such a graph always has at least one cycle and we can
+            analyze who wins with that cycle, at the same time,
+            all the other trees poiting to the cycle are of the same
+            result
+00:20 - Q1 = why would the losing player choose such a cycle?
+00:02 - Q2 = why not solve for B since its harder
+new 30
+00:29 - I1 = lets delete all Rs, condense the graph and count
+            with BFS whether any R or cyle of with no R is reachable,
+       (H1 =)unm    arked vertices in the end all belong to R
+Untimed
+        O2 = we can merge vertices once we chose the optimal edge
+
+O3 = R-vertex is reachable from every vertex of the p-cycle it relaxes
+I2 = lets relax from each R-vertex. For each lets see whether A can reach
+    it, then if there is an edge (R, can reach) all those that can reach
+    must be relaxed
+O3 is wrong
+
+Looked up the ediorial

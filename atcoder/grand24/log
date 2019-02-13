@@ -1,0 +1,8 @@
+00:26 - H0 = some form is achiveable where a constant nu,ber of colors
+            are used
+00:25 - H1 = its never opt to connect anything other than leaves
+00:24 - O0 = something to do ith the diameter
+00:08 - H2 = levels at the same depth from the center of diameter
+            should be of same isomorphical color
+00:03 - O1 = there are many diameters
+00:02 - H3 = if to check every dimater a solution will be found

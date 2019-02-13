@@ -1,0 +1,31 @@
+02:30 - start
+02:30 - analyze samples
+02:24 - AFK
+02:19 - returned back
+02:13 - O0 = vertex 1 is always first
+02:13 - interactions of subtress is the problem
+02:12 - O1 = at every moment we have set of selectable vertices
+02:10 - S1 = slow is DP on selectable sets
+02:09 - Q1 = why greedy on sets fails?
+02:07 - AQ1 = because order matters
+02:05 - H1 = Lex min is the answer
+01:57 - H1 is bullshit
+01:57 - O2 = subtrees gome smth like from big 0 to small 1
+01:56 - start S1
+01:39 - degub S1
+01:33 - sent S1
+01:10 - returned back
+
+O1 = We can change the answer we have by sawpping i & i + 1
+    if one is not anc of the other
+O2 = If we can move a zero to the left that way its always good
+H1 = We can get to opt ans by swapping i & i + 1
+H1 is bullshit
+H2 = We can get to opt ans by swapping blocks
+    if one gets moved to the right
+I1 = We can merge parents children if we one is afher another
+I2 = We can compare and swap next segments
+    if a[i][1] / a[i][0] <= a[i - 1][1] / a[i - 1][0]
+I3 = Merge parent segment with minimal child segment
+I4 = DSU with small to large
+
