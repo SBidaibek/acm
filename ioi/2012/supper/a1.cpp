@@ -9,7 +9,7 @@ using namespace std;
 #define S second
 #define pb push_back
 
-namespace kek {
+namespace Solution {
     typedef long long ll;
     typedef pair <int, int> pii;
     typedef long double ld;
@@ -162,9 +162,9 @@ namespace kek {
 }
 
 void ComputeAdvice(int *C, int N, int K, int M) {
-    kek :: encode(C, N, K, M);
+    Solution :: encode(C, N, K, M);
 }
 
 void Assist(unsigned char *A, int N, int K, int R) {
-    kek :: decode(A, N, K, R);
+    Solution :: decode(A, N, K, R);
 }
